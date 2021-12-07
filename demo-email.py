@@ -14,7 +14,6 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp: # Conexion
 
   subject = 'te amo'
   body = ' mucho [UwU]'
-
   msg = f"Subject: {subject}\n\n{body}"
 
   smtp.sendmail(EMAIL_SENDER, EMAIL_RECIEVER, msg)
